@@ -1,0 +1,47 @@
+/* ACCUEIL */
+.hero {
+    min-height: 76vh;
+    background: linear-gradient(135deg, rgba(255,250,245,.94), rgba(248,233,238,.86));
+}
+.hero h1 { max-width: 850px; margin-inline: auto; }
+.hero .button { margin-top: .5rem; }
+.introduction {
+    background: rgba(255,250,245,.84);
+    border-block: 1px solid var(--bordure);
+    padding-block: 5rem;
+}
+.messages-section {
+    text-align: center;
+    background: rgba(248,233,238,.82);
+}
+.card {
+    position: relative;
+    overflow: hidden;
+}
+.card::before {
+    content: "";
+    display: block;
+    width: 52px;
+    height: 3px;
+    margin: 0 auto 1.2rem;
+    background: var(--rose);
+    border-radius: 999px;
+}
+.card a {
+    display: inline-block;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+.deposit {
+    text-align: center;
+    background: rgba(239,208,220,.84);
+}
+.hero-decoration {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font-size: clamp(4rem, 11vw, 9rem);
+    color: var(--rose);
+    opacity: .24;
+    pointer-events: none;
+}

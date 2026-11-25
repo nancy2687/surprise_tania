@@ -1,0 +1,99 @@
+
+/* ==============================
+   DEPOT DE MESSAGE
+================================= */
+
+.hero {
+    min-height: 45vh;
+}
+
+
+/* FORMULAIRE */
+
+.deposit {
+    background-color: var(--rose-clair);
+    text-align: center;
+}
+
+#form-message {
+    max-width: 650px;
+
+    margin: 40px auto 0;
+
+    padding: 40px;
+
+    background-color: var(--creme);
+
+    border-radius: var(--rayon);
+
+    box-shadow: var(--ombre);
+}
+
+
+/* CHAMPS */
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    color: var(--bordeaux);
+    font-weight: bold;
+}
+
+
+/* INPUT */
+
+input,
+textarea,
+select {
+    border: 1px solid var(--rose-poudre);
+
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+
+    border-color: var(--bordeaux);
+
+    box-shadow: 0 0 5px rgba(112, 36, 59, 0.2);
+}
+
+
+/* CASE A COCHER */
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+/* BOUTON */
+
+#form-message button {
+    border: none;
+    cursor: pointer;
+
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+
+/* MESSAGE */
+
+textarea {
+    min-height: 180px;
+}
+
+
+/* RESPONSIVE FORMULAIRE */
+
+@media screen and (max-width: 600px) {
+
+    #form-message {
+        padding: 25px 20px;
+    }
+
+}
